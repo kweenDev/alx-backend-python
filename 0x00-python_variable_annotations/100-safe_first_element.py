@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-This module defines a function `safe_first_element` that returns the first element
-of a sequence or None if the sequence is empty.
+This module defines a function `safe_first_element` that returns
+the first element of a sequence or None if the sequence is empty.
 """
 
 from typing import Sequence, Any, Union
