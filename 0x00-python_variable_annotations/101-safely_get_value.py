@@ -4,9 +4,9 @@ This module defines a function `safely_get_value` that
 safely gets a value from a dictionary.
 """
 
-from typing import Mapping, Any, Union, TypeVar
+import typing
 
-T = TypeVar('T')
+T = typing.TypeVar('T')
 
 
 def safely_get_value(dct: typing.Mapping, key: typing.Any, default:
