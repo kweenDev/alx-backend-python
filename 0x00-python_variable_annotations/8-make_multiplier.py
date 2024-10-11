@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-This module defines a function `make_multiplier` that returns a multiplier function.
+This module defines a function `make_multiplier` that
+returns a multiplier function.
 """
 
 from typing import Callable
