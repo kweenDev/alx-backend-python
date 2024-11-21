@@ -4,7 +4,7 @@ Unit tests for utils.access_nested_map function.
 """
 import unittest
 from parameterized import parameterized
-from utils import access_nested_map
+from utils import access_nested_map, get_json
 from unittest.mock import patch
 
 
